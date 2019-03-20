@@ -1,0 +1,14 @@
+{
+  "name": "bendjs",
+  "version": "1.0.0",
+  "description": "BendJS website",
+  "repository": "git@github.com:BendJS/website.git",
+  "author": "Paul Armstrong <paul@spaceyak.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "next": "^8.0.3",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
+  }
+}
