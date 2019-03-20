@@ -13,6 +13,7 @@ class Home extends React.Component<Props> {
     )
       .then(res => res.json())
       .then(data => Object.values(data));
+
     return { meetups };
   }
 
@@ -23,7 +24,7 @@ class Home extends React.Component<Props> {
         Hello BendJS 👋
         <div>Next Meetup: {meetups[0].name}</div>
         <Link href="/about">
-          <a>About</a>
+          <a role="link">About</a>
         </Link>
       </div>
     );
