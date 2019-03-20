@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 
-const Home = () => {
+const Home = (): React.ReactElement => {
   return (
     <div>
       Hello BendJS 👋{' '}

@@ -15,5 +15,13 @@
     "next": "^8.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
+  },
+  "devDependencies": {
+    "@types/next": "^8.0.3",
+    "@types/react": "^16.8.8",
+    "@types/react-dom": "^16.8.2",
+    "@zeit/next-typescript": "^1.1.1",
+    "fork-ts-checker-webpack-plugin": "^1.0.0",
+    "typescript": "^3.3.4000"
   }
 }
