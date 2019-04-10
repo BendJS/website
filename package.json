@@ -10,6 +10,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
+    "export": "next build && next export",
     "test": "jest"
   },
   "dependencies": {
@@ -20,14 +21,9 @@
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
-    "@types/jest": "^24.0.11",
-    "@types/next": "^8.0.3",
-    "@types/react": "^16.8.8",
-    "@types/react-dom": "^16.8.2",
     "@zeit/next-typescript": "^1.1.1",
     "fork-ts-checker-webpack-plugin": "^1.0.0",
     "jest": "^24.5.0",
-    "react-testing-library": "^6.0.1",
-    "typescript": "^3.3.4000"
+    "react-testing-library": "^6.0.1"
   }
 }
