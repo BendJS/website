@@ -25,28 +25,33 @@ class Home extends Component {
           <Menu
             theme="dark"
             mode="horizontal"
-            defaultSelectedKeys={['2']}
-            style={{ lineHeight: '64px' }}
+            defaultSelectedKeys={['1']}
+            style={{ lineHeight: '64px', height: '64px'}}
           >
             <Menu.Item key="1">
+              <Link href="/">
+                <a role="link">Home</a>
+              </Link>
+            </Menu.Item>
+            <Menu.Item key="2">
               <Link href="/about">
                 <a role="link">About</a>
               </Link>
             </Menu.Item>
-            <Menu.Item key="2">
+            <Menu.Item key="3">
               <Link href="/people">
-                <a role="link">Go to people</a>
+                <a role="link">People</a>
               </Link>
             </Menu.Item>
           </Menu>
         </Header>
-        <Content style={{ padding: '0 50px' }}>
+        <Content style={{ padding: '0 50px', height: 'calc(100vh - 128px)' }}>
           <div style={{ background: '#fff', padding: 24, minHeight: 280 }}>
             <h1>Hello BendJS 👋</h1>
             Next Meetup: {meetups[0].name}
           </div>
         </Content>
-        <Footer style={{ textAlign: 'center' }}>
+        <Footer style={{ textAlign: 'center', height: '64px'}}>
           BendJS ©2019 Created by some badass BendJS devs (yup...its like that)
         </Footer>
       </Layout>
