@@ -22,6 +22,9 @@ class Home extends React.Component {
         <Link href="/about">
           <a role="link">About</a>
         </Link>
+        <Link href="/people/">
+          <a role="link">Go to people</a>
+        </Link>
       </div>
     );
   }
