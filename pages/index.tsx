@@ -3,7 +3,11 @@ import Link from 'next/link';
 import React from 'react';
 
 interface Props {
-  meetups: Array<Object>;
+  meetups: Array<Meetup>;
+}
+
+interface Meetup {
+  name: String
 }
 
 class Home extends React.Component<Props> {
