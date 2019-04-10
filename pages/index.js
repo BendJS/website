@@ -1,6 +1,7 @@
 import { fetch } from "cross-fetch";
 import Link from "next/link";
 import React from "react";
+import styles from '../styles/styles.scss'
 
 class Home extends React.Component {
   static async getInitialProps() {

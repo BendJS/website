@@ -22,9 +22,11 @@
     "react-dom": "^16.8.4"
   },
   "devDependencies": {
+    "@zeit/next-sass": "1.0.1",
     "@zeit/next-typescript": "^1.1.1",
     "fork-ts-checker-webpack-plugin": "^1.0.0",
     "jest": "^24.5.0",
+    "node-sass": "4.11.0",
     "react-testing-library": "^6.0.1"
   }
 }
