@@ -1,6 +1,8 @@
-import { fetch } from "cross-fetch";
-import Link from "next/link";
 import React from "react";
+import Link from "next/link";
+import { fetch } from "cross-fetch";
+import { Nav, NavItem, NavLink } from 'reactstrap';
+
 import styles from '../styles/styles.scss'
 
 class Home extends React.Component {

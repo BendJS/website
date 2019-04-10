@@ -19,7 +19,8 @@
     "next-routes": "^1.4.2",
     "prettier": "^1.16.4",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "reactstrap": "8.0.0"
   },
   "devDependencies": {
     "@zeit/next-sass": "1.0.1",
