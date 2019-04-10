@@ -4,14 +4,7 @@ Built with NextJS and open for the community to hack on!
 
 ## How to use this repo
 
-- If you would like to make any changes to the main site, please feel free to create a new branch with your changes, make a PR and just let us know how/why/where, ect...
-
-- We want to encourage our community to each build their own version of a profile page! Please follow the instructions below, and maybe watch the video linked below to see how to extend the site and build the profile page.
-
-  - All profile pages will live in the same folder. Build your page, and do anything you want with it. We want to know your accomplishments, cool projects you've worked on, talks you have given, your discord handle or any other way to get in touch with you. ANYTHING YOU WANT!
-
-  - After cloning this repo and following the "Getting setup" steps above, create a new branch like this:
-    - `git checkout -b profile-[yournamehere]`
+- If you would like to make any changes to the main site, please feel free to fork and create a new branch with your changes, make a PR and just let us know how/why/where, etc.
 
 ## Getting setup
 
@@ -26,3 +19,25 @@ To spin up the local development server:
 ```
 yarn run dev
 ```
+
+## Deployment
+
+We are buying bendjs.com
+
+The `master` branch will deploy on Netlify to that.
+
+## Ideas
+
+We talked about:
+
+- Profile pages!
+  - Maybe /people/:person
+  - Maybe a people.json file that lists us all. Names, links, avatars, whatever.
+- Individual meetup pages
+  - Maybe /meetup/:meetup
+  - If they could be somewhat permenant, that'd be nice.
+  - A cloud function that would create a meetup.jpg (Puppeteer!) that would be neat. Netlify has cloud functions.
+- Style the thing
+  - David was adding in Reactstrap
+
+That routing stuff seems like it could be handled with https://github.com/fridays/next-routes but whatevs.
