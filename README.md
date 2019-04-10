@@ -2,12 +2,6 @@
 
 Built with NextJS and open for the community to hack on!
 
-## Getting setup
-
-Clone this repository
-
-... Next steps to come
-
 ## How to use this repo
 
 - If you would like to make any changes to the main site, please feel free to create a new branch with your changes, make a PR and just let us know how/why/where, ect...
@@ -19,6 +13,16 @@ Clone this repository
   - After cloning this repo and following the "Getting setup" steps above, create a new branch like this:
     - `git checkout -b profile-[yournamehere]`
 
-## NextJS - Getting started and how to hack on this site
+## Getting setup
 
-... Coming soon - From Paul Armstrong
+You'll have to run some command line stuff.
+
+```
+yarn install
+```
+
+To spin up the local development server:
+
+```
+yarn run dev
+```
